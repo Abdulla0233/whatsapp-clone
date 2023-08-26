@@ -1,13 +1,63 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+#jsDom {
+  padding: 80px 0;
+}
+#jsDom .chat {
+  border-radius: 20px;
+  background-color: #f8c471;
+  padding: 25px;
+  margin-right: 50px;
+}
+#jsDom .chat .message {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  height: 280px;
+}
+#jsDom .chat .message::-webkit-scrollbar {
+  display: none;
+}
+#jsDom .chat .message .line {
+  background-color: #5f8094;
+  width: auto;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+#jsDom .chat .text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#jsDom .chat .text input {
+  border-radius: 20px;
+  margin-right: 6px;
+}
+#jsDom .chat .text .sent {
+  background-color: #5f8094;
+  width: auto;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 11px 25px;
+  color: white;
+}
+#jsDom .chat .end {
+  text-align: end;
+}
+@media screen and (max-width: 768px) {
+  #jsDom .chat {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
