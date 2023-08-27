@@ -10,15 +10,19 @@
             border-radius: 20px
             padding: 10px
             height: 280px
+            word-break: break-all
+            overflow: scroll
             &::-webkit-scrollbar
                 display: none
             .line
                 background-color: #5f8094
-                width: auto
+                word-break: break-all
                 display: inline-block
                 border-radius: 20px
                 padding: 10px
                 color: #ffff
+                margin-bottom: 20px
+
         .text
             display: flex
             justify-content: center
@@ -34,8 +38,7 @@
                 padding: 11px 25px
                 color: #ffff
         .end
-                text-align: end
+            text-align: end
     @media screen and ( max-width:  768px)
         .chat
             margin-bottom: 50px
-        

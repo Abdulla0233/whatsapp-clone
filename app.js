@@ -1,5 +1,6 @@
 "use strict";
 $(document).ready(function () {
+
     $("#me").click(function (e) {
         e.preventDefault()
         function myel(myclass = "") {
@@ -24,6 +25,8 @@ $(document).ready(function () {
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
 
     })
+
+
     $("#you").click(function (e) {
         e.preventDefault()
         function myel(myclass = "") {
@@ -50,3 +53,5 @@ $(document).ready(function () {
 
 
 });
+
+

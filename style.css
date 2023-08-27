@@ -24,17 +24,20 @@ a:hover {
   border-radius: 20px;
   padding: 10px;
   height: 280px;
+  word-break: break-all;
+  overflow: scroll;
 }
 #jsDom .chat .message::-webkit-scrollbar {
   display: none;
 }
 #jsDom .chat .message .line {
   background-color: #5f8094;
-  width: auto;
+  word-break: break-all;
   display: inline-block;
   border-radius: 20px;
   padding: 10px;
   color: white;
+  margin-bottom: 20px;
 }
 #jsDom .chat .text {
   display: flex;
